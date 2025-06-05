@@ -1,0 +1,158 @@
+/* styles generaux*/
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f7f8fc;
+    display: block;
+    height: 200rem;
+    width: 90rem;
+    
+}
+.container {
+    background: white;
+    padding: 0.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form h2 {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+
+}
+.form input {
+    margin-bottom: 1rem;
+    padding: 0;
+    font-size: 1rem;
+
+}
+.form button {
+    padding: 0.5rem;
+    font-size:1rem;
+    background: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+
+}
+.form p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+
+}
+.form a{
+    color: #4caf50;
+    text-decoration: none;
+}
+.hidden {
+    display: none;
+}
+a {
+    display: block;
+
+}
+/* header*/
+.header{
+    text-align: center;
+    background-color: #4caf50;
+    color:white;
+    padding: 20px 0;
+}
+ .header h1{
+    font-size: 2.5em;
+
+ }
+.header p {
+    font-size: 1.2em;
+}
+/* section des fonctionnalités*/
+.features {
+    padding: 20px;
+    text-align: center;
+    
+}
+.features h2{
+    color: #4caf50;
+
+}
+.features ul{
+    list-style: none;
+    padding: 0;
+}
+.features li{
+    margin: 10px 0;
+    font-size: 1.1em;
+
+}
+div{
+    display: flex;
+    margin:0;
+    padding: 0;
+    border-radius: auto;
+    text-align: center;
+}
+.task-form{
+    padding: 20px;
+    text-align: center;
+}
+.task-form h2{
+    color:#4caf50;
+}
+.task-form form{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.task-form input{
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+.task-form button{
+    background-color:#4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.task-form button{
+    color:white;
+    
+}
+/* liste des taches*/
+.task-list {
+    padding:20px;
+    text-align:center;
+}
+.task-list h2{
+    color:#4caf50;
+}
+.task-list ul{
+    list-style: none;
+    padding: 0;
+}
+.tex-list li{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+footer{
+    text-align: center;
+    padding:10px 0;
+    background-color: #4caf50;
+    color:white;
+    position: relative;
+}
