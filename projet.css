@@ -10,6 +10,13 @@ body{
     width: 90rem;
     
 }
+div .list {
+    display: flex;
+    gap:10px;
+    
+
+   
+}
 .container {
     background: white;
     padding: 0.5rem;
@@ -147,12 +154,12 @@ div{
     padding: 10px;
     width: 80%;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(117, 24, 81, 0.1);
 }
 footer{
     text-align: center;
     padding:10px 0;
-    background-color: #4caf50;
+    background-color: #660d48;
     color:white;
     position: relative;
 }
