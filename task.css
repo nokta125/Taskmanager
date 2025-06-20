@@ -2,17 +2,18 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Arial, sans-serif;
-    animation: alternate-reverse;
+    background-image: url("image/2025_06_20_16_48_IMG_2585.WEBP");
+    background-size: cover;
 }
 
 .container {
-   background:white;
+   
    box-shadow: none;
    width: 100%;
    height: 100vh;
    display: flex;
-   justify-content:left;
-   align-items: center;
+   justify-content:center;
+   align-items:flex-start;
 }
 .form{
     display: flex;
@@ -51,10 +52,11 @@ body {
 }
 
 header {
-    display: flex;
+    
     justify-content:space-between;
     align-items:normal;
     padding: 32px 40px 0 40px;
+
     
 }
 
@@ -82,7 +84,14 @@ header {
     color: #26cec5;
     font-weight: 500;
 }
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    
 
+
+ }
 nav a {
     margin-left: 32px;
     text-decoration: none;
@@ -114,23 +123,23 @@ main {
 }
 
 .left {
-    flex: 1.1;
+    flex: 1.5;
     padding-right: 30px;
 }
 
 .left h1 {
     font-size: 36px;
-    color: #1bc9c9;
+    color: #0f0f0f;
     margin-bottom: 18px;
     font-weight: 700;
 }
 
 .left .highlight {
-    color: #1cbcc2;
+    color: #070707;
 }
 
 .left p {
-    color: #383434;
+    color: #0a1414;
     font-size: 17px;
     margin-bottom: 32px;
     line-height: 1.5;
@@ -155,15 +164,20 @@ main {
 
 
 .right {
-    flex: 1.3;
+    flex: 1.6;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    color: rgb(164, 174, 180); 
+    align-items: center;
+    height: 2000px 60px;
+    
+    
 }
 .main-img {
     width: 770px;
     height: 600px;
-    background: none;
     justify-content:right;  
 }
 
@@ -279,10 +293,6 @@ main {
     margin: 5px 0;
     border-radius:5px;
  }
-
-
-
-
 
 
 

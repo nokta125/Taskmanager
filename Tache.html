@@ -1,69 +1,77 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task Manager - Gérer vos taches facilement</title>
-    <link rel="stylesheet" href="task.css">
+    <link rel="stylesheet" href="main.css">
 </head>
-<body> 
-    <div class="planning">
-        <!--Barre laterale-->
-        <aside class="sidebar">
-            <h2>Menu</h2>
-            <ul>
-                <li><button>Ajouter une Tache</button></li>
-                <li><button>Statistique</button></li>
-                <li><button>Paramètres</button></li>
-            </ul>
 
-        </aside>
-        <!--section principale-->
-        <main class="Plannig-content">
+<body>
+    <div class="planning">
+        <div class="sidebar-laterale">
+            <!--Barre laterale-->
+            <aside class="">
+                <h2>Menu</h2>
+                <ul>
+                    <li><a href="Accueil.html">Accueil</a></li>
+                    <li>Statistique</li>
+                    <li>Paramètres</li>
+                </ul>
+
+            </aside>
+        </div>
+        <div class="planning-container">
+            <!--section principale-->
+
             <!--To-do_list-->
             <section class="todo-list">
-                <h2>A faire</h2>
-                <div class="task">
-                    <span class="task-img"></span>
-                    <span class="tast-titre">Gérer son emploi du temps</span>
-                    <span class="task-statut">Ajourd'hui</span>
-                </div>
-                <div class="task">
-                    <span class="task-icon"></span>
-                    <span class="task-title">Acheter des courses</span>
-                    <span class="task-statuts">Aujourd'hui</span>   
-                </div>
-                <div class="task">
-                    <span class="task-icon"></section>
-                    <span class="task-title">Séance de sport</section>
-                    <span class="status"> Aujourd'hui</span>
-                </div>
-                <section class="task">
-                    <span class="task-icon"></span>
-                    <span class="task-title">Autres</span>
-                </section>
-                <!--calendrier-->
-                <section class="calendrier">
-                    <h2>Calendrier</h2>
-                    <div  class="calendar"> Réunion </div>
-                    <div class="calendrier-item"> Etude</div>
-                    <div class="calendrier-item"> Voyage</div>
-                </section>
-            </section>
-        </main>
-    </div>
-        <h1> Organiser vous de la meilleur des façon</h1>
-        </section>    
-        <section class="task-form">
-            
-            <h2> Ajoutez une nouvelle tache</h2>
-            
-            <form id="taskForm">
-                <input type="text" id="taskInput" placeholder="Entrer votre tache" required>
-                <button type="submit"> Ajouter </button>
-            </form>
 
-        </section>
-        <a href="index.html"> Retour à l'acceuil</a>
-    </nav>
+                <div class="task">
+                    <span class="task-title">Gérer son emploi du temps</span>
+                    <span class="task-title">Acheter des courses</span>
+                    <span class="task-title">Séance de sport</span>
+                </div>
+
+            </section>
+
+            <!--calendrier-->
+           
+            </section>
+
+
+            <h1 class="org"> Organiser vous de la meilleur des façon</h1>
+            </section>
+            <section class="task-form">
+
+                <h2> Ajoutez une nouvelle tache</h2>
+                <div class="task-for">
+                    <form id="taskForm">
+                        <div>
+                            <input type="text" id="taskInput" placeholder="Entrer votre tache" required>
+                        </div>
+                        <div>
+                            <input type="date" id="taskDate" required>
+                        </div>
+                        <div>
+                            <input type="time" id="taskTime" required>
+                        </div>
+                        <div>
+
+                            <button type="submit"> Ajouter </button>
+                        </div>
+
+                    </form>
+
+                </div>
+
+
+            </section>
+
+        </div>
+        <div class="pl">
+            <h2>Mon planing</h2>
+        </div>
+    </div>
 </body>
