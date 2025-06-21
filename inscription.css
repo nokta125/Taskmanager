@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0%;
+    list-style: none;
+}
+
+body {
+    background-image: url('image/2025_06_20_15_13_IMG_2579.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.all:hover {
+    transform: translateY(-5px);
+    transition: 3s;
+    background-color: rgb(177, 207, 233);
+
+}
+.form h2 {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+.form input {
+    margin-bottom: 1rem;
+    padding: 4px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 100%;
+    
+
+}
+
+.form button {
+    padding: 0.3rem;
+    font-size: 1rem;
+    background: #53939e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+
+.form p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+
+}
+
+.form a {
+    color: #047e69;
+    text-decoration: none;
+}
+.container {
+
+    box-shadow: none;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 180px;
+}
+.lien {
+    margin-top: 8px;
+    
+}
+.all {
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 20%;
+    height: 40%;
+    padding: 20px;
+    align-items: center;
+    margin-left: 500px;
+
+}
+.cnx {
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 20%;
+    height: 40%;
+    padding: 20px;
+    align-items: center;
+    margin-left: 40px;
+
+}
+.cnx:hover {
+    transform: translateY(-5px);
+    transition: 3s;
+    background-color: rgb(177, 207, 233);
+
+}

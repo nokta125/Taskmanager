@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="stat.css">
+</head>
+
+<body>
+    <header>
+        <h1>Evolution de vos différents planning</h1>
+    </header>
+    <main>
+        <!--Section de la liste des taches-->
+        <section class="taches">
+            <h2> Liste des Taches</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th> Titre </th>
+                        <th> Statut</th>
+                        <th> Echéance</th>   
+                        
+                    </tr>
+                </thead>
+                <tbody id="tache-list">
+
+                </tbody>
+            </table>
+        </section>
+
+        <!--section des statistiques-->
+        <section class="stats">
+            <h2> Statistiques</h2>
+            <div class="stat-container">
+                <div>
+                    <p> Taches terminées : <span id="tache-completée">0</span></p>
+                </div>
+                <div>
+                    <p> Taches en cours : <span id="tache-cours">0</span></p>
+                </div>
+                <div>
+                    <p> Tache dépassées : <span id="tache-passée">0</span></p>
+                </div>
+            </div>
+        </section> 
+        <section class="status">
+            <h2> Etat Global</h2>
+            <p id="indicateur-stat">En cours d'évaluation ...</p>
+        </section>
+
+    </main>
