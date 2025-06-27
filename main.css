@@ -4,14 +4,14 @@ body {
     padding: 0;
     font-family: 'Segoe UI', Arial, sans-serif;
     background: #f8f6f3;
-    color: #22223b;
+    color: #e4aa83;
 }
 
 /* Sidebar */
 .sidebar-laterale {
     width: 250px;
     min-height: 100vh;
-    background: linear-gradient(135deg, #2d3a8c 70%, #7f53ac 100%);
+    background: linear-gradient(135deg, #8a4a1f 70%, #7f53ac 100%);
     color: #fff;
     padding: 40px 20px 20px 20px;
     box-shadow: 2px 0 12px #0001;
@@ -69,7 +69,7 @@ header h1,
     margin-bottom: 30px;
     font-size: 2.2em;
     font-weight: 700;
-    color: #2d3a8c;
+    color: #552b09;
     text-align: left;
     letter-spacing: 1px;
 }
@@ -94,7 +94,7 @@ header h1,
 .task:hover {
     transform: translateY(-5px);
     transition: 3s;
-    background-color: rgb(70, 113, 150);
+    background-color: rgb(204, 128, 78);
 }
 
 .task-title {
@@ -113,7 +113,7 @@ header h1,
 }
 
 .task-form h2 {
-    color: #2d3a8c;
+    color: #6d380d;
     margin-bottom: 18px;
     font-size: 1.3em;
     font-weight: 700;
@@ -151,7 +151,7 @@ header h1,
 }
 
 .task-form button {
-    background: linear-gradient(90deg, #2d3a8c 60%, #7f53ac 100%);
+    background: linear-gradient(90deg, #e8e8eb 60%, #7f53ac 100%);
     color: #fff;
     border: none;
     padding: 12px 0;
@@ -164,7 +164,7 @@ header h1,
 }
 
 .task-form button:hover {
-    background: linear-gradient(90deg, #7f53ac 60%, #2d3a8c 100%);
+    background: linear-gradient(90deg, #7f53ac 60%, #c6c8d4 100%);
     transform: translateY(-2px) scale(1.03);
 }
 
@@ -180,7 +180,7 @@ header h1,
 }
 
 .pl h2 {
-    color: #2d3a8c;
+    color: #c2804a;
     font-size: 1.3em;
     font-weight: 700;
     margin: 0;

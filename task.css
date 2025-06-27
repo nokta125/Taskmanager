@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Arial, sans-serif;
-    background-image: url("image/2025_06_20_15_10_IMG_2578.JPG");
+    background-image: url("./image/");
     background-size: cover;
 }
 
@@ -43,15 +43,15 @@ header {
 .img-logo {
     width: 80px;
     height: 70px;
-    border: 2px solid #b0e5e9;
+    border: 2px solid #eeece7;
     border-radius: 50%;
     margin-right: 10px;
     display: block;
 }
 
-.logo-text {
+.logo-text {  
     font-size: 22px;
-    color: #26cec5;
+    color: #55320a;
     font-weight: 500;
 }
 
@@ -78,7 +78,7 @@ nav a {
 }
 
 nav a.signup-btn {
-    background: #16d3c3;
+    background: #e6b575;
     color: #fff;
     padding: 10px 28px;
     border-radius: 22px;
@@ -88,7 +88,7 @@ nav a.signup-btn {
 }
 
 nav a.signup-btn:hover {
-    background: #0bd6dd;
+    background: #926223;
 }
 
 main {
@@ -125,7 +125,7 @@ main {
 
 .get-started-btn {
     display: inline-block;
-    background: #17c9c9;
+    background: #dda769;
     color: #fff;
     padding: 12px 32px;
     border-radius: 22px;
@@ -137,7 +137,7 @@ main {
 }
 
 .get-started-btn:hover {
-    background: #1ebdc9;
+    background: #a16a21;
 }
 
 

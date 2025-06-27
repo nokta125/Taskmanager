@@ -1,3 +1,5 @@
+
+?>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -12,15 +14,15 @@
 
     <div class="container">
         <div class="connexion">
-            <form class="form" id="login-form">
+            <form class="form" action="inscription.php" method="post" id="login-form">
                 <div class="all">
                     <h2>Inscription</h2>
-                    <input type="text" placeholder="Nom complet" required />
-                    <input type="email" placeholder="Email" required />
-                    <input type="password" placeholder="Mot de passe" required />
-                    <input type="password" placeholder="Confirmer mot de passe" required />
-                    <button type="submit" a href="Accueil.html"> Se connecter</button>
-
+                    <input type="text" name="nom" placeholder="Nom complet" required />
+                    <input type="email" name="email" placeholder="Email" required />
+                    <input type="password" name="password" placeholder="Mot de passe" required />
+                    <input type="password" name="confirmPassword" placeholder="Confirmer mot de passe" required />
+                    <button type="submit"> Se connecter</button>
+                </div>
             </form>
             <div class="lien">
                 <p>Déjà inscrit ? <a href="connexion.html" id="show-login"> Connexion</a></p>

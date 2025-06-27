@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="setting.css">
+</head>
+<body>
+    <div class="setting-page">
+        <h1>Paramètres</h1>
+        <section class="setting-section">
+            <h1> Profil Utilisateur</h1>
+            <form>
+                <label for="username">Nom d'utilisateur :</label>
+                <input type="text" id="utilisateur" name="utilisateur" placeholder="Ex: Pierrette">
+
+                <label for="email">Email :</label>
+                <input type="email" id="mail" name="mail" placeholder="Ex: pierrettebamana12@gmail.com">
+
+                <label for="avatar"> Choisir une photo de profil :</label>
+                <input type="file" id="avatar" name="avatar">
+
+                <button type="submit">Sauvegarder</button>
+
+            </form>
+        </section>
+
+        <!--Section pour les preferences-->
+        <section class="setting-section">
+            <h2>Thèmes</h2>
+            <label>
+                thème :
+                <select name="theme">
+                    <option value="light">Clair</option>
+                    <option value="dark">Sombre</option>
+                </select>
+            </label>
+
+            <label>
+                Langue :
+                <select name="language">
+                    <option value="fr">Français</option>
+                    <option value="en">Annglais</option>
+                </select>
+            </label>
+        </section>
+
+        <section class="setting-section">
+            <h2>Sécurité</h2>
+            <form>
+                <label for="password">Nouveau mot de passe :</label>
+                <input type="password" id="mot-de-passe" name="mot-de-passe">
+
+                <label for="confirmPassword">Confirmer le mot de passe :</label>
+                <input type="password" id="confirmPassword" name="confirmPassword">
+
+                <button type="submit">Mettre à jour</button>
+            </form>
+        </section>
+
+        <section class="setting-section">
+            <h2> A propos </h2>
+            <p>TaskFlow-version 1.0</p>
+            <p>Dévelloper par Pierrette BWANANDEKE.</p>
+        </section>
+    </div>
+</body>
