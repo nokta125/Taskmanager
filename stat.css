@@ -3,10 +3,10 @@ body {
     line-height: 1.6;
     margin: 0;
     padding:0;
-    background-color: aliceblue;
+    background-color: rgb(221, 172, 115);
 }
  header {
-    background-color: rgb(6, 96, 138);
+    background-color: rgb(131, 79, 31);
     color: aliceblue;
     text-align: center;
     padding: 1rem 0;
@@ -33,7 +33,7 @@ body {
 
  }
  table th {
-    background-color: aqua;
+    background-color: rgb(139, 83, 38);
     color: #fff;
  }
  .stat-container {
@@ -48,12 +48,12 @@ body {
         background-color: #f4f4f4;
         border-radius: 5px;
         text-align: center;
-        border: 1rem solid #ddd;
+        border: 1rem solid #301b03;
     }
     #indicateur-stat {
         font-size: 1.2rem;
         font-weight: bold;
-        color: #007BFF;
+        color: #c97e39;
         text-align: center;
     }
     
